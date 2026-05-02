@@ -27,7 +27,7 @@ docker-compose up -d
 ````
 npm i @nestjs/mongoose mongoose
 ````
-6. recontruir la bbdd con la semilla
+6. reconstruir la bbdd con la semilla
 
 ````
 http://localhost:3000/api/v2/seed
