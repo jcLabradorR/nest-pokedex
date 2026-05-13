@@ -20,14 +20,22 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-5. Conectar Nest con mongo
+* Conectar Nest con mongo
 * Descargar el paquete
 * configurar mongo
 
 ````
 npm i @nestjs/mongoose mongoose
 ````
-6. reconstruir la bbdd con la semilla
+5. Clonar el archivo __.env.template__
+
+6. correr la aplicacion
+
+````
+npm run start:dev
+
+````
+7. reconstruir la bbdd con la semilla
 
 ````
 http://localhost:3000/api/v2/seed
